@@ -63,8 +63,9 @@ The Fish Market Weight Prediction project uses a dataset of fish measurements to
 
 ### File Structure
 fish-market-prediction/
-├── app.py                  # Flask API and web interface
-├── train_model.py          # Script to train the model
+   ├── app.py                  # Flask API and web interface
+   
+   ├── train_model.py          # Script to train the model
 ├── Fish.csv                # Dataset
 ├── fish_market_model.pkl   # Trained model
 ├── species_encoder.pkl     # LabelEncoder for species
